@@ -1,0 +1,40 @@
+.users-dashboard{
+    font-family: Microsoft JhengHei;
+}
+.about-title{
+    margin-top: -5px;
+}
+.about{
+    background: rgb(229, 227, 227);
+    margin: 10.3% 0% 0% -2% ;
+    float: right;
+    width: 50%;
+    height: 344px;
+    padding: 3%;
+    font-size: 14px;
+}
+.about-content img{
+    
+
+}
+@media only screen and (max-width: 1039px) {
+    .about{
+        margin-top: 12.8%;
+        height: 369px;
+        font-size: 12px;
+    }
+  }
+@media only screen and (max-width: 796px) {
+    .about{
+        margin-top: 16.8%;
+        height: 369px;
+        font-size: 12px;
+    }
+   }
+@media only screen and (max-width: 600px) {
+    .about{
+        height: 378px;
+        margin-top: 22%;
+        font-size: 11px
+    }
+}

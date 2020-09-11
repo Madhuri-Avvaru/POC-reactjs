@@ -1,0 +1,94 @@
+body{
+      /* overflow-y: hidden;   */
+}
+.users-dashboard{
+    display: flex;
+    font-family: Microsoft JhengHei;
+}
+.welcome{
+    background: rgb(229, 227, 227);
+    margin: 10.3% 0% 0% -2% ;
+    float: right;
+    width: 50%;
+    height: 344px;
+    padding: 3%;
+}
+.welcome h4{
+    color: rgb(224,29,29);
+    font-weight: 900;
+}
+.welcome-bottom{
+    display: flex;
+}
+.subscribe h4{
+    color: black;
+    font-weight: 900;
+    float: left;
+}
+.data-binding h4{
+    float: right;
+    color: black;
+    padding-left: 14px;
+}
+.subscribe-menu{
+    font-size: 12px;
+}
+input[type=checkbox]{
+    margin-left: 0px;
+}
+button{
+    background: rgb(74, 154, 219);
+    border-radius: 8px;
+    color: whitesmoke;
+    padding:6px;
+    width: 45%;
+    border: none
+}
+button:focus{
+    outline: none;
+}
+.data-binding{
+    padding-left: 29%;
+}
+.binding-text{
+    width: 135%;
+    height: 17%;
+    background-color: rgb(242, 242, 242);
+    border: 0.5px solid;
+    border-top: 2px;
+    border-style: inset;
+}
+@media only screen and (max-width: 1036px) {
+    .welcome{
+        margin-top: 14%;
+        height: 384px;
+    }
+    .menu-items{
+        font-size:17px;
+        height: 407px;
+    }
+    .binding-text{
+        width: 91%;
+        height: 19%;
+        font-size: 12px
+    }
+  }
+  @media only screen and (max-width: 796px) {
+    .left-menu  {
+      width: 19%;
+    }
+    .welcome{
+        margin-top: 17%;
+    }
+    .menu-items{
+        padding: 8%;
+        font-size: 17px;
+    } 
+    .binding-text{
+        width: 91%;
+        height: 19%;
+        font-size: 10px
+    }
+   }
+
+

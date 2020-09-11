@@ -1,0 +1,39 @@
+body{
+   background-image: url("./assets/background-image.png");
+   background-repeat: repeat-x;
+}
+.left-menu{
+   width: 16%;
+   margin-left: 10%;
+   padding: 47px; 
+   float: left;
+}
+.left-heading{ 
+   background-color: rgb(224,29,29);
+   text-align: center;  
+   color: whitesmoke;
+   height: 58px;
+   padding: 5px 0px 20px 0px
+} 
+.menu-items{
+   background:rgb(229, 227, 227);
+   font-size: 20px;
+   padding:12%;
+   height: 370px;
+   font-weight: 900
+}
+.menu-items ul{
+   padding-left: 2px;
+}
+.menu-items li{
+   list-style-type: none;
+   margin: 0;
+   padding: 0
+}
+.left-link{
+   text-decoration: none;
+   color: rgb(224,29,29);
+} 
+.link-active{
+   color: grey;
+}
